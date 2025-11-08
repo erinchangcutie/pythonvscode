@@ -1,7 +1,7 @@
 import streamlit as st
 
 st.title('Ow Ow toy store')
-
+st.divider()
 toy1,toy2,toy3=st.columns(3)
 
 with toy1:
