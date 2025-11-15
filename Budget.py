@@ -25,6 +25,8 @@ if st.button ('Check my balance') :
 
     elif total_balance < 500 :
         st.write ('Great job',name,'! you have $',total_balance,'left! This is a good amount for savings or lisure!')
+    elif total_balance == 0 :
+        st.write('Opps',name,'you spent all your money! You have $',total_balance,'!')
 
     elif total_balance < 0 :
         st.write ('Opps',name,'You are over budget by $',total_balance,'. Consider cutting back on expenses.')
