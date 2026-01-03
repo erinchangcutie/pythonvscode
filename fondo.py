@@ -1,10 +1,12 @@
 import streamlit as st
 
-st.title('How to get CHOCOLATE fondo WITH ICE CREAM!')
+st.title('How to get chocolate fondue with ICE CREAM!')
+
+st.image('https://www.aeon.com.hk/html/assets/images/HD-Fondue_1225_web-770-4.jpg')
 
 st.write('Start to go on a adventure!')
 
-fondo = st.radio('1. Do you want Fundo Ice Cream?',['Choose an option','Yes','No'])
+fondo = st.radio('1. Do you want Fundue Ice Cream?',['Choose an option','Yes','No'])
 
 if fondo == 'Yes' :
     store = st.radio('Did you find a popular ice cream shop that is big and has seats?',['Choose an option','Yes','No'])
